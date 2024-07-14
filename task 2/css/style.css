@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(174, 147, 36);
+    font-size: 70px;
+    display: inline-block;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    display: inline-block
+
+}
+
+body{
+   background-color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.parent{
+    overflow: auto;
+}
+.div1{
+    float: left;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 230px;
+    width: 490px;
+    
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    color: rgb(174, 147, 36);
+    text-align: center;
+    text-transform: capitalize; 
+    font-size: 50px;
+    margin-top: 50px;
+}

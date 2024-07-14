@@ -1,0 +1,211 @@
+.div1{
+    animation-name: change;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    position: absolute;
+    left: 0;
+    animation-fill-mode: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+        
+    }
+}
+.div2{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    left: 0px;
+    margin-top: 170px;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 8s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+        
+        left: 1200px;
+        
+    }
+}
+.div3{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    margin-top: 240px;
+    left: 0;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+    
+    }
+}
+.div4{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    left:0px;
+    margin-top: 310px;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 16s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+        
+        left: 1200px;
+      
+    }
+}
+.div5{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    left: 0;
+    margin-top: 380px;
+    animation-delay: 20s;
+    animation-fill-mode: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+        
+    }
+}
+.div6{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    margin-top: 450px;
+    left: 0px;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-delay: 24s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    
+    100%{
+        
+        left: 1200px;
+    }
+}
+.div7{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    left: 0;
+    margin-top: 520px;
+    animation-delay: 28s;
+    animation-fill-mode: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}  
+ @keyframes change{
+    0%{
+       background-color: rgb(255, 255, 255);
+
+    }
+    50%{
+        left: 1050px;
+    }
+    100%{
+        
+    }
+}
+.div8{
+    width: 250px;
+    height: 150px;
+    animation-name: change;
+    animation-duration: 4s;
+    position: absolute;
+    margin-top: 590px;
+    left: 0px;
+    margin-left: 140px;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-delay: 32s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+ @keyframes change{
+    
+    100%{
+        
+        left: 1000px;
+    }
+}
+.container{
+    width: 85%;
+    margin: auto;
+    height: 100vh;
+    /* background-color: rgb(26, 24, 24); */
+    
+}
+.div1:hover{
+    animation-play-state: paused;
+}
+.div1:hover{
+    animation-play-state: paused;
+}
+.div2:hover{
+    animation-play-state: paused;
+}
+.div3:hover{
+    animation-play-state: paused;
+}
+.div4:hover{
+    animation-play-state: paused;
+}
+.div5:hover{
+    animation-play-state: paused;
+}
+.div6:hover{
+    animation-play-state: paused;
+}
+.div7:hover{
+    animation-play-state: paused;
+}
+.div8:hover{
+    animation-play-state: paused;
+}
+.div1.animated{
+    animation-play-state: running;
+}
